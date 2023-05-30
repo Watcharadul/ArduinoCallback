@@ -28,7 +28,7 @@ enum ButtonEnum{
   UP, DOWN, RIGHT, NONE
 };
 
-class ButtonController : ParentController{
+struct ButtonController : ParentController{
   private:
     unsigned long timer = 0;
     ButtonEnum direction = NONE;
